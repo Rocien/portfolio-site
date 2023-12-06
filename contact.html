@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Rocien Nkunga | Frontend Developer</title>
+    <link rel="shortcut icon" type="image/png" href="./images/RN-logo.png">
+</head>
+<body id="page">
+
+    <!-- ----- Adding more accessibility to the website----  -->
+    <ul class="skip-links">
+        <li>
+          <a class="skip-links__link" href="#nav">Skip to main navigation</a>
+        </li>
+  
+        <li>
+          <a class="skip-links__link" href="#main">Skip to main content</a>
+        </li>
+    </ul>
+    <!-----NAVIGATION BAR--- -->
+    <header class="nav">
+        <div class="container">
+
+            <h1>
+                <a href="./" class="nav__logo">
+                    <img src="./images/RN-logo.png" alt="RN-logo" class="icon">
+                </a>
+            </h1>
+
+            <nav class="nav__links" id="nav">
+                <ul class="nav__list">
+                    <li><a href="./" class="nav__link"><i class="fas fa-house"></i> Home</a></li>
+                    <li><a href="./portfolio.html" class="nav__link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="./contact.html" class="nav__link"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main id="main">
+        <!-- ----Contact Form-----  -->
+        <section class="contact">
+            <div class="container container-contact">
+
+                <h2 class="contact__title">Contact</h2>
+
+                <div class="contact__wrap">
+
+                    <form action="#" class="contact__form">
+
+                        <div class="contact__form-text">
+                            <h3>Let's Connect!</h3>
+                            <p>If you have an exciting opportunity or a project in mind, don't hesitate to get in touch with me.</p>
+                        </div>
+
+                        <div class="form-unit full">
+                            <label for="fullName">Full Name*</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+
+                        <div class="form-unit__full">
+                            <div class="form-unit">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-unit">
+                                <label for="tel">Phone*</label>
+                                <input type="tel" id="tel" name="tel" required>
+                            </div>
+                        </div>
+
+                        <div class="form-unit">
+
+                            <label for="subject">Subject*</label>
+                            <select name="subject" id="subject"  required>
+                                    <optgroup label="Choose a subject">
+                                        <option value="sales"></option>
+                                        <option value="Freelance">Freelance</option>
+                                        <option value="Job Opportunity">Job Opportunities</option>
+                                        <option value="careers">Careers</option>
+                                    </optgroup>
+                            </select>
+
+                        </div>
+
+                        <div class="form-unit">
+                            <label for="message">Message*</label>
+                            <textarea name="message" id="message" required></textarea>
+                        </div>
+
+                        <div class="form-unit full">
+                            <input class="btn" type="submit" value="submit">
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ---Footer---- -->
+    <footer class="footer">
+
+        <div class="container">
+            <a href="./" class="footer__logo">
+                <img src="./images/RN-logo.png" alt="RN-logo" class="icon">
+            </a>
+
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="./" class="footer__link"><i class="fas fa-house"></i> Home</a></li>
+                    <li><a href="./portfolio.html" class="footer__link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="./contact.html" class="footer__link"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://github.com/Rocien" class="footer__copyright" target="_blank">
+                <small>
+                    &copy; 2023 Designed & Built by Rocien Nkunga
+                </small>
+            </a>
+
+        </div>
+    </footer>
+
+    <a href=".#page" class="to-top">To Top</a>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

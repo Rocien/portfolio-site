@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Rocien Nkunga | Frontend Developer</title>
+    <link rel="shortcut icon" type="image/png" href="./images/RN-logo.png">
+</head>
+<body id="page">
+
+     <!-- ----- Adding more accessibility to the website----  -->
+     <ul class="skip-links">
+        <li>
+          <a class="skip-links__link" href="#nav">Skip to main navigation</a>
+        </li>
+  
+        <li>
+          <a class="skip-links__link" href="#main">Skip to main content</a>
+        </li>
+    </ul>
+    <!-----NAVIGATION BAR--- -->
+    <header class="nav">
+        <div class="container">
+
+            <h1>
+                <a href="./" class="nav__logo">
+                    <img src="./images/RN-logo.png" alt="RN-logo" class="icon">
+                </a>
+            </h1>
+
+            <nav class="nav__links" id="nav">
+                <ul class="nav__list">
+                    <li><a href="./" class="nav__link"><i class="fas fa-house"></i> Home</a></li>
+                    <li><a href="./portfolio.html" class="nav__link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="./contact.html" class="nav__link"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main id="main">
+
+        <!-- ----Card for Technical Skills ----  -->
+        <section class="card-group">
+            <div class="container">
+                <h2 class="card-group__title">Portfolio</h2>
+
+                <ul class="card-group__list card-group__portfolio">
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://rocien.github.io/tensor-element-detector/" target="_blank">
+                            <div class="card__image">
+                                <img src="./images/tensorflow-2.svg"
+                                alt="Tensor-app Image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">TensorFlow Element detector</h3>
+                                <p class="card__text">
+                                    Experience the power of machine learning with my TensorFlow Element Detector web application. 
+                                    Leveraging the cutting-edge TensorFlow.js library and the Coco-SSD model, 
+                                    this project pushes the boundaries of what's possible with web-based machine learning..
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://rocien.github.io/planets-weight-calculator/" target="_blank">
+                            <div class="card__image">
+                                <img src="./images/balance.svg"
+                                alt="Weight Calculator image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Planet weight calculator</h3>
+                                <p class="card__text">
+                                    Explore the cosmos and understand the gravitational differences on different planets with the Planets Weight Calculator. 
+                                    This lightweight and intuitive web application allow users to calculate their weight on various celestial bodies in our solar system..
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://nkun0003.github.io/mad9013-project-two-page-site/#" target="_blank">
+                            <div class="card__image">
+                                <img src="./images/logo-ac.svg"
+                                alt="AC - logo"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Adventure Co.</h3>
+                                <p class="card__text">
+                                    I successfully crafted a dynamic and engaging 2-page website for Adventure Co.
+                                    The website, built entirely with HTML and CSS, reflects my commitment to creating visually appealing and user-friendly interfaces. Leveraging my skills in responsive design, 
+                                    I ensured a seamless experience across various devices.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://rocien.github.io/calculator-app/" target="_blank">
+                            <div class="card__image">
+                                <img src="./images/Black-And-White-Calculator.png"
+                                alt="calculator-app Image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Calculator Web App</h3>
+                                <p class="card__text">
+                                    Elevate your mathematical experience with my React JS Calculator, user-friendly web application that transforms basic calculations into an engaging and interactive journey. 
+                                    This project showcases the power and versatility of React JS in crafting dynamic and responsive user interfaces.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ---Footer---- -->
+    <footer class="footer">
+
+        <div class="container">
+            <a href="./" class="footer__logo">
+                <img src="./images/RN-logo.png" alt="RN-logo" class="icon">
+            </a>
+
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="./" class="footer__link"><i class="fas fa-house"></i> Home</a></li>
+                    <li><a href="./portfolio.html" class="footer__link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="./contact.html" class="footer__link"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://github.com/Rocien" class="footer__copyright" target="_blank">
+                <small>
+                    &copy; 2023 Designed & Built by Rocien Nkunga
+                </small>
+            </a>
+
+        </div>
+    </footer>
+
+    <a href=".#page" class="to-top">To Top</a>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
