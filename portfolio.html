@@ -14,8 +14,8 @@
 </head>
 <body id="page">
 
-     <!-- ----- Adding more accessibility to the website----  -->
-     <ul class="skip-links">
+    <!-- ----- Adding more accessibility to the website----  -->
+    <ul class="skip-links">
         <li>
           <a class="skip-links__link" href="#nav">Skip to main navigation</a>
         </li>
@@ -24,7 +24,7 @@
           <a class="skip-links__link" href="#main">Skip to main content</a>
         </li>
     </ul>
-    <!-----NAVIGATION BAR--- -->
+    <!-- ---NAVIGATION BAR--- -->
     <header class="nav">
         <div class="container">
 
@@ -36,12 +36,18 @@
 
             <nav class="nav__links" id="nav">
                 <ul class="nav__list">
-                    <li><a href="./" class="nav__link"><i class="fas fa-house"></i> Home</a></li>
-                    <li><a href="./portfolio.html" class="nav__link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
-                    <li><a href="./contact.html" class="nav__link"><i class="fa-solid fa-address-card"></i> Contact</a></li>
+                    <li><a href="./" class="nav__link nav__link-hamburger"><i class="fas fa-house"></i> Home</a></li>
+                    <li><a href="./portfolio.html" class="nav__link nav__link-hamburger"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="./contact.html" class="nav__link nav__link-hamburger"><i class="fa-solid fa-address-card"></i> Contact</a></li>
                 </ul>
             </nav>
-        </div>
+
+            <button class="nav-toggle">
+                <span class="nav-toggle__tog nav-toggle__tog--top"></span>
+                <span class="nav-toggle__tog nav-toggle__tog--middle"></span>
+                <span class="nav-toggle__tog nav-toggle__tog--bottom"></span>
+                <span class="screen-reader-text">Click to open the mobile navigation.</span>
+            </button>
 
     </header>
 
@@ -148,17 +154,29 @@
                 </ul>
             </nav>
 
-            <a href="https://github.com/Rocien" class="footer__copyright" target="_blank">
-                <small>
-                    &copy; 2023 Designed & Built by Rocien Nkunga
-                </small>
-            </a>
+            <div>
+                <div class="social__list">
+                    <a href="https://github.com/Rocien" class="social__link" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rociennkunga/" class="social__link" target="_blank" aria-label="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/NkungaRoss" class="social__link" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rossnkunga/" class="social__link" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://codepen.io/rocien" class="social__link" target="_blank" aria-label="codepen"><i class="fa-brands fa-codepen"></i></a>
+                </div>
+    
+                <a href="https://github.com/Rocien" class="footer__copyright" target="_blank">
+                    <small>
+                        &copy; 2023 Designed & Built by Rocien Nkunga
+                    </small>
+                </a>
+
+            </div>
 
         </div>
     </footer>
 
     <a href=".#page" class="to-top">To Top</a>
 
+    <div class="click-to-close"></div>
     <script src="./js/main.js"></script>
 </body>
 </html>
