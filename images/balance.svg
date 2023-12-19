@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 455 455" xml:space="preserve">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2183 2500" style="enable-background:new 0 0 2183 2500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
 <g>
-	<polygon points="150.618,395 130.5,455 324.5,455 304.382,395 	"/>
-	<path d="M0,260c0,37.555,30.669,68,68.5,68c37.832,0,68.5-30.445,68.5-68H0z"/>
-	<path d="M318,260c0,37.555,30.669,68,68.5,68c37.832,0,68.5-30.445,68.5-68H318z"/>
-	<path d="M68.5,148.477L103.012,230h32.577l-44.45-105H212.5v240h30V125h121.362l-44.45,105h32.577l34.511-81.523L421.011,230
-		h32.578l-57.15-135H242.5V55.977c8.964-5.188,15-14.874,15-25.977c0-16.569-13.431-30-30-30s-30,13.431-30,30
-		c0,11.102,6.036,20.789,15,25.977V95H58.561L1.411,230h32.578L68.5,148.477z"/>
+	<polygon class="st0" points="813.9,1996.3 741.2,2243.6 1441.8,2243.6 1369.1,1996.3 	"/>
+	<path class="st0" d="M269.9,1439.9c0,154.8,110.8,280.3,247.4,280.3c136.6,0,247.4-125.5,247.4-280.3H269.9z"/>
+	<path class="st0" d="M1418.3,1439.9c0,154.8,110.8,280.3,247.4,280.3c136.6,0,247.4-125.5,247.4-280.3H1418.3z"/>
+	<path class="st0" d="M517.3,980.2l124.6,336h117.6L599.1,883.4h438.3v989.2h108.3V883.4h438.3l-160.5,432.8h117.6l124.6-336
+		l124.6,336H1908l-206.4-556.4h-555.9V598.9c32.4-21.4,54.2-61.3,54.2-107.1c0-68.3-48.5-123.7-108.3-123.7s-108.3,55.4-108.3,123.7
+		c0,45.8,21.8,85.7,54.2,107.1v160.8H481.4L275,1316.2h117.6L517.3,980.2z"/>
 </g>
 </svg>

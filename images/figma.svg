@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2183 2500" style="enable-background:new 0 0 2183 2500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1ABCFE;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0ACF83;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7262;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F24E1E;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#A259FF;}
+</style>
+<path class="st0" d="M1091.5,1305.9c0-172.6,137.9-312.6,308.1-312.6s308.1,139.9,308.1,312.6s-137.9,312.6-308.1,312.6
+	S1091.5,1478.5,1091.5,1305.9z"/>
+<path class="st1" d="M475.3,1931.1c0-172.6,137.9-312.6,308.1-312.6h308.1v312.6c0,172.6-137.9,312.6-308.1,312.6
+	C613.3,2243.6,475.3,2103.7,475.3,1931.1z"/>
+<path class="st2" d="M1091.5,368.2v625.1h308.1c170.1,0,308.1-139.9,308.1-312.6c0-172.6-137.9-312.6-308.1-312.6H1091.5z"/>
+<path class="st3" d="M475.3,680.8c0,172.6,137.9,312.6,308.1,312.6h308.1V368.2H783.4C613.3,368.2,475.3,508.2,475.3,680.8z"/>
+<path class="st4" d="M475.3,1305.9c0,172.6,137.9,312.6,308.1,312.6h308.1V993.4H783.4C613.3,993.4,475.3,1133.3,475.3,1305.9z"/>
 </svg>

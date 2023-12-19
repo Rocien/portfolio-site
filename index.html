@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     
@@ -60,45 +61,54 @@
             <div class="container">
 
                 <div class="banner__content">
-                    <h2 class="banner__greeting">Hi, I am</h2>
-                    <h3 class="banner__title">Rocien Nkunga </h3>
+
+                    <h2>
+                        <span class="banner__greeting">Hi, my name is</span>
+                        <span class="banner__title">Rocien Nkunga </span>
+                    </h2>
                     <p class="banner__text">
-                        A Frontend Developer passionate about crafting functional and visually stunning websites and web applications.<br>
-                        Currently completing my Mobile Application Design & Development Program at Algonquin College<br>
+                        A Frontend Developer without language or tool barriers,
+                        Believe that skills are transferable, and can work with any language or tool once learned.
+                        Currently completing Mobile Application Design & Development Program at Algonquin College.
                         I encourage you to take a moment to explore my resume.
                     </p>
                     <a href="." class="btn btn--large btn--animation">Resume</a>
                 </div>
 
-
             </div>
+
+            <!-- <div>
+                <a href=".#skills-card"> 
+                    Lean more
+                    <span class="material-symbols-outlined">expand_more</span>
+                </a>
+            </div> -->
         </section>
 
          <!-- -----Card for Technical Skills----- -->
-        <section class="card-group">
+        <section class="card-group" id="skills-card">
 
             <div class="container">
                 <h2 class="card-group__title">Technical Skills Stack</h2>
                 <ul class="card-group__list">
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="html">
+                        <div class="card" href=".#html">
                             <div class="card__image">
                                 <img src="./images/html-logo.svg"
-                                alt="html 5 icon"
+                                alt="html 5"
                                 >
                             </div>
                             <div class="card__content">
                                 <h3 class="card__title">Html 5</h3>
                                 <p class="card__text">
                                     Proficient in creating structured, semantic, and accessible HTML markup.
-                                    Experienced in optimizing HTML for search engines and cross-browser compatibility.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="css">
+                        <div class="card" href=".#css">
                             <div class="card__image">
                                 <img src="./images/CSS3_logo.svg"
                                 alt="Css 3"
@@ -107,49 +117,30 @@
                             <div class="card__content">
                                 <h3 class="card__title">Css</h3>
                                 <p class="card__text">
-                                    Strong command of CSS for styling web pages, ensuring a visually appealing and responsive design.
-                                    Knowledgeable in CSS preprocessors like Sass for efficient and maintainable stylesheets.
+                                    Strong command of CSS for styling web pages.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="javascript">
+                        <div class="card" href=".#javascript">
                             <div class="card__image">
                                 <img src="./images/javascript-logo.svg"
-                                alt="JavaScript icon"
+                                alt="JavaScript"
                                 >
                             </div>
                             <div class="card__content">
                                 <h3 class="card__title">Javascript</h3>
                                 <p class="card__text">
-                                    Passionate at developing dynamic and interactive web applications using JavaScript.
-                                    Skilled in working with frameworks and libraries to enhance user experiences.
+                                    Develop dynamic and interactive web applications using JavaScript.
                                 </p>
                             </div>
-                        </a>
-                    </li>
-                    
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
-                            <div class="card__image">
-                                <img src="./images/git-icon.svg"
-                                alt="Git icon"
-                                >
-                            </div>
-                            <div class="card__content">
-                                <h3 class="card__title">Git</h3>
-                                <p class="card__text">
-                                    Expertise in version control using Git for collaborative and organized software development.
-                                    Familiarity with branching, merging, and pull requests for effective team collaboration.
-                                </p>
-                            </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="tailwind">
+                        <div class="card" href=".#tailwind">
                             <div class="card__image">
                                 <img src="./images/tailwind-css-1.svg"
                                 alt="Tailwind CSS"
@@ -158,66 +149,62 @@
                             <div class="card__content">
                                 <h3 class="card__title">Tailwind</h3>
                                 <p class="card__text">
-                                    Proficient in utilizing Tailwind CSS to streamline the styling process and maintain consistency.
                                     Experience in creating responsive layouts and components with Tailwind utility classes.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="ai">
+                        <div class="card" href=".#ai">
                             <div class="card__image">
                                 <img src="./images/AI-logo.svg"
-                                alt="AI icon"
+                                alt="AI"
                                 >
                             </div>
                             <div class="card__content">
                                 <h3 class="card__title">Adobe Illustrator</h3>
                                 <p class="card__text">
-                                    Skilled in using Adobe Illustrator for creating vector graphics and visual assets.
-                                    Proficient in translating design concepts into scalable and high-quality illustrations.
+                                    Proficient in translating design concepts into scalable illustrations.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="figma">
+                        <div class="card" href=".#figma">
                             <div class="card__image">
                                 <img src="./images/figma.svg"
-                                alt="Figma icon"
+                                alt="Figma"
                                 >
                             </div>
                             <div class="card__content">
                                 <h3 class="card__title">Figma</h3>
                                 <p class="card__text">
                                     Experienced in using Figma for collaborative and efficient UI/UX design.
-                                    Proficient in creating interactive prototypes and design systems in Figma.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="sass">
+                        <div class="card" href=".#sass">
                             <div class="card__image">
                                 <img src="./images/sass-logo.svg"
-                                alt="Sass icon"
+                                alt="Sass"
                                 >
                             </div>
                             <div class="card__content">
                                 <h3 class="card__title">Sass</h3>
                                 <p class="card__text">
-                                    In-depth knowledge of Sass CSS, enhancing CSS with variables, mixins, and nested rules.
                                     Skilled in improving code maintainability and readability with Sass features.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
-                    <li class="card-group__card">
-                        <a class="card" href=".#">
+                    <li class="card-group__card" id="react">
+                        <div class="card" href=".#react">
                             <div class="card__image">
                                 <img src="./images/react.svg"
                                 alt="React js"
@@ -227,10 +214,9 @@
                                 <h3 class="card__title">React js</h3>
                                 <p class="card__text">
                                     Expertise in building interactive and scalable user interfaces with React JS.
-                                    Proficient in state management, component lifecycle, and integrating APIs for dynamic content.
                                 </p>
                             </div>
-                        </a>
+                        </div>
                     </li>
 
                 </ul>
@@ -261,7 +247,6 @@
                     <a href="https://github.com/Rocien" class="social__link" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/rociennkunga/" class="social__link" target="_blank" aria-label="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://twitter.com/NkungaRoss" class="social__link" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/rossnkunga/" class="social__link" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://codepen.io/rocien" class="social__link" target="_blank" aria-label="codepen"><i class="fa-brands fa-codepen"></i></a>
                 </div>
     
