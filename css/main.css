@@ -506,7 +506,7 @@ p {
 .card-group__card {
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 90%;
     margin-bottom: 2rem;
 }
 
@@ -885,7 +885,7 @@ textarea {
     }
 
     .card-group__card {
-        height: 90%;
+        height: 95%;
         margin-bottom: 0;
     }
 
