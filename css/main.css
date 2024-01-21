@@ -893,4 +893,8 @@ textarea {
     .footer .container {
         gap: 10rem;
     }
+
+    .contact__wrap {
+        margin-top: 6rem;
+    }
 }
