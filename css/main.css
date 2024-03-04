@@ -466,6 +466,7 @@ p {
 
 .banner__text {
   animation-delay: 1s;
+  color: var(--color-light-slate);
 }
 
 .btn--animation {
@@ -809,6 +810,7 @@ textarea {
 
     .banner__text {
         width: 80%;
+        /* font-size: 1.5rem; */
     }
 
     .btn--large {
